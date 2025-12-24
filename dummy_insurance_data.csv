@@ -1,0 +1,11 @@
+age,weight,height,income_lpa,smoker,city,occupation,insurance_premium_category
+25,60,170,4.5,No,Mumbai,Software Engineer,Low
+32,72,175,8.0,Yes,Delhi,Sales Manager,Medium
+45,80,168,12.5,Yes,Bangalore,Business Owner,High
+29,65,172,6.2,No,Pune,Data Analyst,Low
+38,78,180,10.0,No,Hyderabad,Project Manager,Medium
+50,85,165,15.0,Yes,Chennai,Consultant,High
+41,70,169,9.5,No,Jaipur,Government Officer,Medium
+27,58,167,3.8,No,Indore,Student,Low
+35,75,173,7.5,Yes,Ahmedabad,Factory Supervisor,Medium
+55,90,160,18.0,Yes,Kolkata,Retired,High
