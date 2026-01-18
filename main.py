@@ -1,12 +1,12 @@
 from fastapi import FastAPI,Path,HTTPException,Query
 from fastapi.responses import JSONResponse
-from pydantic import Basemodel,Union,Field,computed_field,field__validator
+from pydantic import BaseModel,Field,computed_field,field_validator
 from typing import Annotated,Literal,Optional
 import json
 
 app = FastAPI()
 
-class Patient(Basemodel):
+class Patient(BaseModel):
     id:Annotated[str,Field(...,description='ID of the patient',example=['P001'])]
     name:Annotated[str,Field(...,description='Name of the patient')]
     city:Annotated[str,Field(...,description='Name of the city')]

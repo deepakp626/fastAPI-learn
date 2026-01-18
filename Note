@@ -1,0 +1,13 @@
+pip install "fastapi[standard]" "sqlalchemy[asyncio]" alembic python-decouple aiomysql 
+
+-->> alembic ko initailize karna ka liya
+ |
+ |-->> alembic init -t sync alembic
+
+-->> file generate karage
+ |
+ |-->> alembic revision --autogenerate -m "create table"
+
+-->> latest migration ko use karna ka liya
+ |
+ |-->> alembic upgrade head
